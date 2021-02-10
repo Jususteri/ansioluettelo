@@ -31,6 +31,12 @@ h4 {
     color: #333;
 }
 
+h1 {
+
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
 .left {
     float: left;
     width: 20%;
