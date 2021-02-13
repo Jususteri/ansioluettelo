@@ -32,39 +32,43 @@ h4 {
 }
 
 h1 {
-
     margin-bottom: 30px;
     font-size: 40px;
 }
 
 .left {
     float: left;
-    width: 20%;
+    flex: 20%;
     padding-left: 20px;
 
 }
 
 .center {
-    width: 40%;
+    flex: 40%;
     float: left;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-@media (max-width: 1000px) {
-    .center {
-        float: none;
-    }
+@media screen and (max-width: 992px) {
 
-    .right {
-        float: none;
-    }
 
-    .left {
-        float: none;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
     }
 }
 
+
+
 .right {
-    width: 40%;
+    flex: 40%;
     float: left;
 
 }
